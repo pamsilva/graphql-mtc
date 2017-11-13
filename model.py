@@ -9,7 +9,7 @@ pwd = 'oQAyxuipqSafMFW5qQKWcFVh5umC5si3'
 
 # engine, suppose it has two tables 'user' and 'address' set up
 engine = create_engine(
-    "mysql+pymysql://root@localhost/mtc?password=" + pwd
+    "mysql+pymysql://root@localhost/mtc?password=" + pwd + "&charset=utf8",
 )
 
 # reflect the tables
